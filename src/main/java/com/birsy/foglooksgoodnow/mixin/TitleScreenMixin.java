@@ -1,6 +1,6 @@
-package com.example.example_mod.mixin;
+package com.birsy.foglooksgoodnow.mixin;
 
-import com.example.example_mod.ExampleMod;
+import com.birsy.foglooksgoodnow.ExampleMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

@@ -1,4 +1,4 @@
-package com.example.example_mod;
+package com.birsy.foglooksgoodnow;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
