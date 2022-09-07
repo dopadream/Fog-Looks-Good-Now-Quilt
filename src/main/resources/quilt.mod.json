@@ -1,25 +1,27 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
-		"version": "${version}",
+		"group": "com.birsy",
+		"id": "foglooksgoodnow",
+		"version": "1.0.0",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Fog Looks Good Now",
+			"description": "Makes fog look good. On Quilt.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Birsy": "Owner",
+				"dopadream": "Quilt Port Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
 				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-template-mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/foglooksgoodnow/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.birsy.foglooksgoodnow.FogLooksGoodNowMod",
+			"modmenu": "com.birsy.foglooksgoodnow.config.ModConfigScreen"
 		},
 		"depends": [
 			{
@@ -36,5 +38,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "foglooksgoodnow.mixins.json"
 }
