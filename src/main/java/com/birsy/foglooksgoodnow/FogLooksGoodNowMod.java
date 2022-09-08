@@ -25,11 +25,5 @@ public class FogLooksGoodNowMod implements ModInitializer {
 
 		new ModConfigManager();
 
-//		BuiltinRegistries.BIOME.stream().forEach(biome -> ModConfigManager.CONFIG.colorOverrides.putIfAbsent(BuiltinRegistries.BIOME.getKey(biome).toString(), ValueList.create(false, false)));
-//		BuiltinRegistries.BIOME.stream().forEach(biome -> ModConfigManager.CONFIG.fogColors.putIfAbsent(BuiltinRegistries.BIOME.getKey(biome).toString(), ValueList.create(0, 0)));
-		BuiltinRegistries.BIOME.stream().forEach(biome -> ModConfigManager.CONFIG.biomeOverrides.putIfAbsent(BuiltinRegistries.BIOME.getKey(biome).toString(), ValueList.create(false, false)));
-		BuiltinRegistries.BIOME.stream().forEach(biome -> ModConfigManager.CONFIG.biomeFogs.putIfAbsent(BuiltinRegistries.BIOME.getKey(biome).toString(), ValueList.create(1.0F, 0.0F, 1.0F)));
-
-
 	}
 }
